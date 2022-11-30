@@ -1,0 +1,21 @@
+.progress-bar {
+    height: 10px;
+    width: 100%;
+    background-color: lightgrey;
+  }
+  
+  .progress-bar > div {
+    background-color: lawngreen;
+    width: 0%;
+    height: 100%;
+  }
+  
+  .progress-bar > div.loading {
+    transition: width 3s ease-in-out;
+    width: 100%;
+  }
+  
+  .button {
+    margin-top: 1rem;
+  }
+  

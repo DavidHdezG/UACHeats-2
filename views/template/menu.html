@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover">
+    <title>UACH-eats</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- desktop view -->
+    <div class="container" id="container">
+        <div id="menu">
+            <div class="title">
+                <img src="/images/menu/foodie hunter.png" alt="">
+            </div>
+            <div class="menu-item">
+                <a href="#">Acerca de</a>
+                <a href="#">Tus órdenes</a>
+                <a href="#">Carrito</a>
+            </div>
+        </div>
+
+        <div id="food-container">
+            <div id="header">
+                <div class="util">
+                    <i class="fa fa-search"> Buscar</i>
+                    <i class="fa fa-cart-plus" id="cart-plus"> 0 Productos</i>
+                </div>
+            </div>
+            <div id="food-items" class="d-food-items">
+                <div id="burrito" class="d-burrito">
+                    <p id="category-name">Burritos</p>    
+                </div>
+
+                <div id="montado" class="d-montado">
+                    <p id="category-name">Montados</p>    
+                </div>
+
+                <div id="mollete" class="d-mollete">
+                    <p id="category-name">Molletes</p>
+                </div>
+
+                <div id="hamburguesa" class="d-hamburguesa">
+                    <p id="category-name">Hamburguesa</p> 
+                </div>
+
+                <div id="hotdog" class="d-hotdog">
+                    <p id="category-name">Hot-Dog</p> 
+                </div>
+
+                <div id="platillo" class="d-platillo">
+                    <p id="category-name">Platillo</p>
+                </div>
+
+                <div id="torta" class="d-torta">
+                    <p id="category-name">Torta</p>
+                </div>
+
+                <div id="sushi" class="d-sushi">
+                    <p id="category-name">Sushi</p>
+                </div>
+
+                <div id="sandwich" class="d-sandwich">
+                    <p id="category-name">Sandwich</p>
+                </div>
+                
+                <div id="baguete" class="d-baguete">
+                    <p id="category-name">Baguete</p>
+                </div>
+                
+                <div id="bola_arroz" class="d-bola_arroz">
+                    <p id="category-name">Bola de arroz</p>
+                </div>
+
+                <div id="sincronizada" class="d-sincronizada">
+                    <p id="category-name">Sincronizada</p>
+                </div>
+
+                <div id="chilaquiles" class="d-chilaquiles">
+                    <p id="category-name">Chilaquiles</p>
+                </div>
+
+                <div id="frutaVerdura" class="d-frutaVerdura">
+                    <p id="category-name">Fruta y Verdura</p>
+                </div>
+
+
+
+            </div>
+
+            <div id="cart-page" class="cart-toggle">
+                <p id="cart-title">Cart Items</p>
+                <p id="m-total-amount">Total Amout : 100</p>
+                <table>
+                    <thead>
+                        <td>Producto</td>
+                        <td>Nombre</td>
+                        <td>Cantidad</td>
+                        <td>Precio</td>
+                    </thead>
+                    <tbody id="table-body">
+                        
+                    </tbody>
+                </table>
+                <div class="btn-box">
+                    <button class="cart-btn">Checkout</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="cart">
+            <div class="taste-header">
+                <div class="user">
+                    <i class="fa fa-user-circle" id="circle"> Account</i>
+                    
+                </div>
+            </div>
+            <div id="category-list">
+                <p class="item-menu">Categorías</p>
+                <div class="border"></div>                
+            </div>
+            <div id="checkout" class="cart-toggle">
+                <p id="total-item">Total de productos : 5</p>
+                <p id="total-price"></p>
+                <button class="cart-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- mobile view -->
+    <div id="mobile-view" class="mobile-view">
+        <div class="mobile-top">
+            <div class="logo-box">
+                <img src="/images/menu/foodielogo.png" alt="" id="logo">
+                <i class="fa fa-map-marker your-address" id="m-add-address"> Your Address</i>
+            </div>
+            <div class="top-menu">
+                <i class="fa fa-search"></i>
+                <i class="fa fa-tag"></i>
+                <i class="fa fa-heart-o"></i>
+                <i class="fa fa-cart-plus" id="m-cart-plus"> 0</i>
+            </div>
+        </div>
+        
+        <div class="item-container">
+            <div class="category-header" id="category-header">  
+            </div>
+
+            <div id="food-items" class="food-items">
+                <div id="burrito" class="m-burrito">
+                    <p id="category-name">Burrito</p>    
+                </div>
+                <div id="montado" class="m-montado">
+                    <p id="category-name">Montado</p>    
+                </div>
+                <div id="mollete" class="m-mollete">
+                    <p id="category-name">Mollete</p>
+                </div>
+                <div id="hamburguesa" class="m-hamburguesa">
+                    <p id="category-name">Hamburguesa</p> 
+                </div>
+                <div id="hotdog" class="m-hotdog">
+                    <p id="category-name">Hotdog</p> 
+                </div>
+                <div id="platillo" class="m-platillo">
+                    <p id="category-name">Platillo</p>
+                </div>
+                <div id="sushi" class="m-sushi">
+                    <p id="category-name">Sushi</p>
+                </div>
+                <div id="sandwich" class="m-sandwich">
+                    <p id="category-name">Sandwich</p>
+                </div>
+                <div id="baguete" class="m-sincronizada">
+                    <p id="category-name">Baguete</p>
+                </div>
+                <div id="bola_arroz" class="m-sincronizada">
+                    <p id="category-name">Bola de arroz</p>
+                </div>
+                <div id="sincronizada" class="m-sincronizada">
+                    <p id="category-name">Sincronizada</p>
+                </div>
+                <div id="chilaquiles" class="m-chilaquiles">
+                    <p id="category-name">Chilaquiles</p>
+                </div>
+                <div id="frutaVerdura" class="m-frutaVerdura">
+                    <p id="category-name">Fruta y Verdura</p>
+                </div>
+            </div>            
+        </div>
+
+        <div class="mobile-footer">
+            <p>Home</p>
+            <p>Cart</p>
+            <p>offers</p>
+            <p>orders</p>
+        </div>
+    </div>
+    <script src="/scripts/index.js" type="module"></script>
+</body>
+</html>
